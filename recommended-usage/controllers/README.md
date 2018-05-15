@@ -46,7 +46,7 @@ func HelloGet(req *HelloGetForm) *HelloGetResp {
 }
 ```
 
-![Get-Method](https://raw.githubusercontent.com/yeqown/gweb-usage-samples/master/screenshots/getmethod.png)
+![Get-Method](https://raw.githubusercontent.com/yeqown/gweb-usage-smaples/master/recommended-usage/screenshots/getmethod.png)
 
 ### Post Method
 
@@ -75,7 +75,7 @@ func HelloPost(req *HelloPostForm) *HelloPostResp {
 	return resp
 }
 ```
-![POST-Method](https://raw.githubusercontent.com/yeqown/gweb-usage-samples/master/screenshots/postmethod.png)
+![POST-Method](https://raw.githubusercontent.com/yeqown/gweb-usage-smaples/master/recommended-usage/screenshots/postmethod.png)
 
 ### Put Method
 
@@ -105,7 +105,7 @@ func HelloPut(req *HelloPutForm) *HelloPutResp {
 }
 ```
 
-![Put-Method](https://raw.githubusercontent.com/yeqown/gweb-usage-samples/master/screenshots/putmethod.png)
+![Put-Method](https://raw.githubusercontent.com/yeqown/gweb-usage-smaples/master/recommended-usage/screenshots/putmethod.png)
 
 ### JSONbody Method
 
@@ -136,7 +136,7 @@ func HelloJsonBody(req *HelloJsonBodyForm) *HelloJsonBodyResp {
 }
 ```
 
-![JSON-Body](https://raw.githubusercontent.com/yeqown/gweb-usage-samples/master/screenshots/jsonbody.png)
+![JSON-Body](https://raw.githubusercontent.com/yeqown/gweb-usage-smaples/master/recommended-usage/screenshots/jsonbody.png)
 
 ### Files Method
 
@@ -179,7 +179,7 @@ func HelloFile(req *HelloFileForm) *HelloFileResp {
 }
 ```
 
-![Files-Form](https://raw.githubusercontent.com/yeqown/gweb-usage-samples/master/screenshots/files.png)
+![Files-Form](https://raw.githubusercontent.com/yeqown/gweb-usage-smaples/master/recommended-usage/screenshots/files.png)
 
 ```txt
 # demo1.txt
