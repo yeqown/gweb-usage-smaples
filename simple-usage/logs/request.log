@@ -1,0 +1,10 @@
+2018/05/15 10:21:31 reqlog.go:17: [INFO] Path: [/hello], Method: [GET], Headers: [{"Accept":["*/*"],"User-Agent":["curl/7.54.0"]}], Form: [{}]
+2018/05/15 10:21:31 response.go:17: [INFO] {"code":2,"message":"非法参数","errs":[{"field":"Name","value":"","message":"Can not be empty"},{"field":"Age","value":0,"message":"Can not be empty"},{"field":"Age","value":0,"message":"Minimum is 18"}]}
+2018/05/15 10:22:07 reqlog.go:17: [INFO] Path: [/hello], Method: [GET], Headers: [{"Accept":["*/*"],"User-Agent":["curl/7.54.0"]}], Form: [{"age":["19"],"name":["ha"]}]
+2018/05/15 10:22:07 response.go:26: [INFO] ResponseJson ~ 
+2018/05/15 10:22:07 response.go:17: [INFO] {"code":0,"message":"成功","tip":"Get Hello, ha! your age[19] is valid to access"}
+2018/05/15 10:22:33 reqlog.go:17: [INFO] Path: [/hello], Method: [GET], Headers: [{"Accept":["*/*"],"User-Agent":["curl/7.54.0"]}], Form: [{}]
+2018/05/15 10:22:33 response.go:17: [INFO] {"code":2,"message":"非法参数","errs":[{"field":"Name","value":"","message":"Can not be empty"},{"field":"Age","value":0,"message":"Can not be empty"},{"field":"Age","value":0,"message":"Minimum is 18"}]}
+2018/05/15 10:22:38 reqlog.go:17: [INFO] Path: [/hello], Method: [GET], Headers: [{"Accept":["*/*"],"User-Agent":["curl/7.54.0"]}], Form: [{"age":["19"],"name":["ha"]}]
+2018/05/15 10:22:38 response.go:26: [INFO] ResponseJson ~ 
+2018/05/15 10:22:38 response.go:17: [INFO] {"code":0,"message":"成功","tip":"Get Hello, ha! your age[19] is valid to access"}
