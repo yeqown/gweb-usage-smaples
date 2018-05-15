@@ -1,18 +1,6 @@
 # simple-usage
 
-# Get Started
-
-
-### install
-```
-	go get github.com/yeqown/gweb
-```
-
-### things need to do:
-	* step1: set http server config
-	* step2: add your handlers
-	* step3: how to start http serevr
-
+This is a small demonstration program that quickly uses gweb to start a web-api server that contains form parameter parsing and validation
 
 ### sample code is here:
 
@@ -92,5 +80,5 @@ func HelloGet(req *HelloGetForm) *HelloGetResp {
 
 ### screenshots
 
-![run-and-output](#)
-![request-test](#)
+![run-and-output](https://raw.githubusercontent.com/yeqown/gweb-usage-smaples/master/simple-usage/screenshot/run.png)
+![request-test](https://raw.githubusercontent.com/yeqown/gweb-usage-smaples/master/simple-usage/screenshot/request.png)

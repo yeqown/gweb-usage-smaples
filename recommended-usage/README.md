@@ -1,7 +1,7 @@
 # recommended-usage
 
 How to organize the file structure to achieve more intuitive use. and more use about controllers Requets method: 
-**[Link to controller](/controllers)**
+**[Link to controller](https://github.com/yeqown/gweb-usage-smaples/tree/master/recommended-usage/controllers)**
 
 ## file-tree
 ```sh
