@@ -1,5 +1,3 @@
-# Gweb-Usage-Samples
-
 # Get Started
 
 ### Install
@@ -15,6 +13,7 @@ step3: how to start http serevr
 ```
 
 ### Link to samples
-there are two smaples, maybe helpful~:
+there are smaples, maybe helpful~:
 * [simple-usage](https://github.com/yeqown/gweb-usage-smaples/tree/master/simple-usage)
 * [recommended-usage](https://github.com/yeqown/gweb-usage-smaples/tree/master/recommended-usage)
+* [using-orm-usage](https://github.com/yeqown/gweb-usage-smaples/tree/master/using-orm-usage)
